@@ -1,5 +1,7 @@
 # Практика №1. Настройка и использование ОС Linux в качестве файловой системы
 
+## Задание 1
+
 1. Установили VirtualBox
 
     ![](./img/vb_001.png)
@@ -19,6 +21,8 @@
 1. Залогинились пользователем user
 
     ![](./img/vb_005.png)
+
+## Задание 2
 
 1. Результат команды `man top`
 
@@ -124,6 +128,8 @@
     user@ubuntu1804-test:~$
     ```
 
+## Задание 3
+
 Просмотр текущего каталога
 
 ```
@@ -176,6 +182,15 @@ files  media
 ./silver/media:
 
 ./temp:
+```
+
+```
+user@ubuntu1804-test:~/my_test_folder$ ls -R > ./temp/dirs.txt
+```
+
+## Задание 4
+
+```
 user@ubuntu1804-test:~/my_test_folder$ cd temp
 user@ubuntu1804-test:~/my_test_folder/temp$ touch test.txt
 user@ubuntu1804-test:~/my_test_folder/temp$ echo "Hello? its my first file in Linux!" > test.txt
@@ -185,6 +200,8 @@ user@ubuntu1804-test:~/my_test_folder/temp$ ls -l
 total 4
 -rw-rw-r-- 1 user user 35 Mar  8 08:38 test.txt
 ```
+
+## Задание 5
 
 Загрузка архива из репозитория
 
@@ -245,6 +262,9 @@ total 79176
 -rw-r--r-- 1 user user  1181395 Feb  2  2023 TNVED3.Txt
 ```
 
+## Задание 6
+
+
 Перенос графических файлов в `bronze/media`
 
 ```
@@ -277,6 +297,8 @@ total 18812
 -rw-r--r-- 1 user user   128090 Jan 13  2019  MIREA_gerb_rgb.png
 ```
 
+## Задание 7
+
 Просмотр первых строк файлов
 
 ```
@@ -302,6 +324,9 @@ OiCCPPhotoshop ICC profilexڝSgTS=BKKoR RB&*!   
 !{kּ>H3Q5B.@
 $pd!s#~<<+"xM0B\t8@zB@F&S`cbP-`'{[!
 ```
+
+## Задание 8
+
 
 Перенос тесктовых файлов в `bronze/files`
 
@@ -367,6 +392,8 @@ total 2496
 -rw-rw-r-- 1 user user  267224 Mar  8 09:18 tnved2_utf.txt
 -rw-rw-r-- 1 user user 2013503 Mar  8 09:18 tnved3_utf.txt
 ```
+
+## Задание 9
 
 Замена символа `|` на `||` с помощью редактора nano
 
